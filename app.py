@@ -6,10 +6,10 @@ from PIL import Image   # for open the image
 from io import BytesIO  # for working with binary data of the image
 
 # Choose API endpoint and insert the API key of the Stability AI __________________________________
-# API_ENDPOINT: the location to the Stability AI API server
+# API_ENDPOINT: the location to the service of the Stability.AI API server
 # API_KEY: for getting the authority for using the server of the API server
 API_ENDPOINT = "https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image"
-API_KEY="sk-vEscAS21jvJaW62vZAsJPfcHXNWUpu53oNSUCJ4nHw8IFGKD"
+API_KEY="your API key"
 
 
 # The Website ________________________________________________________________
